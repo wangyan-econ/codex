@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew install:*)",
+      "Bash(ls \"/Users/yan/Library/CloudStorage/Dropbox/Project with WANG YAN 2019/1ST PROJECT/DO and DTA Files/211028 summary/\"*.do)",
+      "Read(//Applications/**)",
+      "Read(//usr/local/**)",
+      "Bash(mdfind \"kMDItemFSName == 'Stata*'\")",
+      "Read(//private/tmp/**)",
+      "Bash(/Applications/StataNow/StataBE.app/Contents/MacOS/StataBE -b do run_stata.do)",
+      "Read(//tmp/**)"
+    ]
+  }
+}

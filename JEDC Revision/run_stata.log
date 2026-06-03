@@ -1,0 +1,37 @@
+
+  ___  ____  ____  ____  ____ ®
+ /__    /   ____/   /   ____/      StataNow 19.5
+___/   /   /___/   /   /___/       BE—Basic Edition
+
+ Statistics and Data Science       Copyright 1985-2025 StataCorp LLC
+                                   StataCorp
+                                   4905 Lakeway Drive
+                                   College Station, Texas 77845 USA
+                                   800-782-8272        https://www.stata.co
+> m
+                                   979-696-4600        service@stata.com
+
+Stata license: Single-user , expiring  6 Apr 2026
+Serial number: 301909017897
+  Licensed to: yan
+               
+
+Notes:
+      1. Stata is running in batch mode.
+      2. Unicode is supported; see help unicode_advice.
+
+. do /tmp/run_stata.do 
+
+. global dropbox "/Users/yan/Library/CloudStorage/Dropbox/Project with WANG
+>  YAN 2019/1ST PROJECT/DO and DTA Files/211028 summary"
+
+. 
+. use "$dropbox/contractsandcontractdark.dta", replace
+
+. 
+. gen mkt = 1 if Treatment == 1 | Treatment == 3
+variable mkt already defined
+r(110);
+
+end of do-file
+r(110);
